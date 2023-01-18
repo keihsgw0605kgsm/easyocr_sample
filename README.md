@@ -33,5 +33,5 @@ make build
 1. Set target image in `config/main.yaml`
 2. Run EasyOCR
 ```
-python run
+make run
 ```
