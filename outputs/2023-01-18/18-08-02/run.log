@@ -1,0 +1,5 @@
+[2023-01-18 18:08:02,745][easyocr.easyocr.easyocr][WARNING] - Using CPU. Note: This module is much faster with a GPU.
+[2023-01-18 18:08:02,751][easyocr.easyocr.easyocr][WARNING] - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[2023-01-18 18:09:33,309][easyocr.easyocr.easyocr][INFO] - Download complete
+[2023-01-18 18:09:33,309][easyocr.easyocr.easyocr][WARNING] - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+[2023-01-18 18:09:55,048][easyocr.easyocr.easyocr][INFO] - Download complete.
