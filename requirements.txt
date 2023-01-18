@@ -11,4 +11,5 @@ Shapely
 pyclipper
 ninja
 hydra-core>=1.0.4
+matplotlib
 easyocr
