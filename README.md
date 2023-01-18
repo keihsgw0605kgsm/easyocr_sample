@@ -29,7 +29,7 @@ cd easyocr_sample
 make build
 ```
 
-## Run
+## Running
 1. Set target image in `config/main.yaml`
 2. Run EasyOCR
 ```
