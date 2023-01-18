@@ -1,3 +1,4 @@
+import os
 import torch
 import hydra
 import easyocr
@@ -14,7 +15,7 @@ def make_save_dir(save_path):
 
     current_time =  now.strftime("%Y-%m-%d-%H-%M")
     save_path = pathlib.Path(os.path.join(save_path, current_time))
-
+    print(save_path)
     if not save_path.exists():
         save_path.mkdir()
     
@@ -23,7 +24,6 @@ def make_save_dir(save_path):
 
 def save_result_img(img, result, save_path):
     plt.rcParams["font.family"] = "IPAGothic"
-    print(matplotlib.rcParams['font.family'])
     fig = plt.figure(figsize = (40,40))
     ax = plt.axes()
     ax.imshow(img)
@@ -43,7 +43,7 @@ def save_result_img(img, result, save_path):
             ax.add_patch(r)
         except:
             continue
-    plt.savefig(os.join.path(save_path, "result.png"))
+    plt.savefig(os.path.join(save_path, "result.png"))
 
 
 @hydra.main(config_path="config", config_name="main")
