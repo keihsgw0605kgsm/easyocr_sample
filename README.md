@@ -1,7 +1,7 @@
 # EasyOCR_sample
 
 ## Installation
-1. Launch Colab Server to run EasyOCR.
+1. Launch [Colab Server](https://github.com/keihsgw0605kgsm/easyocr_sample/blob/686788c2dbec14295a4b7131fa78e43206fea1d9/notebook/Colab_Server.ipynb) to run EasyOCR.
 
 2. Copy-paste to the terminal the command below to connect Colab Server
 
